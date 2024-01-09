@@ -1,0 +1,2431 @@
+repo_name: 2lambda123/Agency-datawave
+report_id: 8e60a67cbdd8680ab67b817f4a874ff5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T08:27:15+00:00'
+requested_by: 2lambda123
+provider: github
+branch: 2.4-vis
+detected_tools_count: 192
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: Java EE
+  description: The standard in community-driven enterprise software
+  website_url: http://www.oracle.com/technetwork/java/javaee/overview/index.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4522/652rxwyK_400x400.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/rest-api/pom.xml
+  detection_source: web-services/rest-api/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/docker-quickstart/docker-compose.yml
+  detection_source: services/docker-quickstart/docker-compose.yml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: Whitney O'Meara
+  last_updated_on: 2018-07-12 18:23:43.000000000 Z
+- name: Spring Cloud
+  description: Spring helps development teams everywhere build simple, portable,fast
+    and flexible JVM-based systems and applications.
+  website_url: https://spring.io/projects/spring-cloud
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/config-service/pom.xml
+  detection_source: services/config-service/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/read-properties/pom.xml
+  detection_source: contrib/read-properties/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '15.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/accumulo-utils/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 14:24:35.000000000 Z
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/common-test/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Hazelcast
+  description: Clustering and highly scalable data distribution platform for Java
+  website_url: http://hazelcast.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/hazelcast-client/pom.xml
+  detection_source: services/hazelcast-client/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-11-14 19:16:17.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/docker-quickstart/docker-compose.yml
+  detection_source: services/docker-quickstart/docker-compose.yml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-27 19:14:32.000000000 Z
+- name: Serverless AppSync
+  description: Easily and quickly deploy GraphQL APIs on AWS
+  website_url: https://github.com/serverless-components/aws-app-sync
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/11394/appsync.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/docker-quickstart/docker-compose.yml
+  detection_source: services/docker-quickstart/docker-compose.yml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-02-02 20:56:04.000000000 Z
+- name: Consul
+  description: A tool for service discovery, monitoring and configuration
+  website_url: http://www.consul.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/747/consul-logo-grad_teaser.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/docker-quickstart/docker-compose.yml
+  detection_source: services/docker-quickstart/docker-compose.yml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-27 19:14:32.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: JBoss
+  description: An open source Java EE-based application server
+  website_url: https://developers.redhat.com/products/eap
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2188/unnamed.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/assert-properties/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.7.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/client/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/data-dictionary-core/pom.xml
+  detection_source: warehouse/data-dictionary-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Monit
+  description: 'A free, open-source process supervision tool '
+  website_url: https://mmonit.com
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2986/MonitLogo.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/config-service/pom.xml
+  detection_source: services/config-service/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/docker-quickstart/docker-compose.yml
+  detection_source: services/docker-quickstart/docker-compose.yml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/accumulo-utils/pom.xml
+  detection_source: services/accumulo-utils/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-12-14 18:58:16.000000000 Z
+- name: StatsD
+  description: Simple daemon for easy stats aggregation
+  website_url: https://github.com/etsy/statsd/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/932/default_b8c7d49298132d46fbef113905bcba1896158113.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/metrics-reporter/pom.xml
+  detection_source: services/metrics-reporter/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Whitney O'Meara
+  last_updated_on: 2018-02-01 18:36:36.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/common/pom.xml
+  detection_source: web-services/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-09-05 17:54:23.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/audit-service/src/test/resources/config/application.yml
+  detection_source: services/audit-service/src/test/resources/config/application.yml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/docker-quickstart/docker-compose.yml
+  detection_source: services/docker-quickstart/docker-compose.yml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/docker-quickstart/docker-compose.yml
+  detection_source: services/docker-quickstart/docker-compose.yml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-27 19:14:32.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/2lambda123/Agency-datawave
+  detection_source: Repo Metadata
+- name: aopalliance:aopalliance
+  description: AOP Alliance
+  version: '1.0'
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/common/pom.xml
+  detection_source: web-services/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-09-05 17:54:23.000000000 Z
+- name: com.beust:jcommander
+  description: Command line parser library for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: Tom Nelson
+  last_updated_on: 2018-11-05 19:22:00.000000000 Z
+- name: com.clearspring.analytics:stream
+  description: A library for summarizing data in streams for which it is infeasible
+    to store all events
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-11-11 02:16:34.000000000 Z
+- name: com.esotericsoftware.kryo:kryo
+  description: Fast, efficient Java serialization
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: Tom Nelson
+  last_updated_on: 2018-11-05 19:22:00.000000000 Z
+- name: com.esotericsoftware.minlog:minlog
+  description: Minimal overhead Java logging
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-17 20:44:09.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/authorization-api/pom.xml
+  detection_source: services/authorization-api/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-27 19:14:32.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-guava
+  description: Add-on datatype-support module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+  description: Support for using JAXB annotations as an alternative to "native" Jackson
+    annotations
+  version: 2.9.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: com.github.ben-manes.caffeine:caffeine
+  description: A high performance caching library for Java 8+
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: com.github.stefanbirkner:system-rules
+  description: A collection of JUnit rules for testing code which uses java.lang.System
+  version: 1.18.0
+  license: CPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: 4a4f484e
+  last_updated_on: 2018-10-03 12:52:18.000000000 Z
+- name: com.google.code.findbugs:annotations
+  description: Annotation the FindBugs tool supports
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-json/pom.xml
+  detection_source: warehouse/ingest-json/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '15.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/accumulo-utils/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 14:24:35.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Denial of Service in Google Guava
+    cve_id: CVE-2018-10237
+    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 24.1.1-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: Tom Nelson
+  last_updated_on: 2018-11-05 19:22:00.000000000 Z
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-11-11 02:16:34.000000000 Z
+- name: com.hazelcast:hazelcast-client
+  description: Hazelcast In-Memory DataGrid
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/hazelcast-client/pom.xml
+  detection_source: services/hazelcast-client/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-11-14 19:16:17.000000000 Z
+- name: com.hazelcast:hazelcast-spring
+  description: Open Source In-Memory Data Grid
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/hazelcast-common/pom.xml
+  detection_source: services/hazelcast-common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: com.jcraft:jzlib
+  description: JZlib is a re-implementation of zlib in pure Java
+  version: 1.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: com.ryantenney.metrics:metrics-spring
+  description: Spring integration for Coda Hale's Metrics Library
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: com.sun.jersey:jersey-server
+  version: '1.9'
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: com.sun.mail:mailapi
+  version: 1.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: 4a4f484e
+  last_updated_on: 2018-10-03 12:52:18.000000000 Z
+- name: com.timgroup:java-statsd-client
+  description: A tiny library allowing Java applications to communicate with statsd
+    instances easily
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/metrics-reporter/pom.xml
+  detection_source: services/metrics-reporter/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-05 09:28:01.000000000 Z
+- name: com.vividsolutions:jts
+  description: The JTS Topology Suite is an API for modelling and manipulating 2-dimensional
+    linear geometry
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/client/pom.xml
+  detection_source: web-services/client/pom.xml
+  last_updated_by: tomnelson
+  last_updated_on: 2018-08-13 14:24:13.000000000 Z
+- name: commons-beanutils:commons-beanutils-core
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-17 20:44:09.000000000 Z
+- name: commons-cli:commons-cli
+  description: Apache Commons CLI provides a simple API for presenting
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/common/pom.xml
+  detection_source: warehouse/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/accumulo-client/pom.xml
+  detection_source: web-services/accumulo-client/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: commons-configuration:commons-configuration
+  description: Tools to assist in the reading of configuration/preferences files in
+    various formats
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/webservice/pom.xml
+  detection_source: warehouse/assemble/webservice/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: commons-dbutils:commons-dbutils
+  description: The Apache Commons DbUtils package is a set of Java utility classes
+    for easing JDBC development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/cached-results/pom.xml
+  detection_source: web-services/cached-results/pom.xml
+  last_updated_by: tomnelson
+  last_updated_on: 2018-08-13 14:24:13.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/metrics-reporter/pom.xml
+  detection_source: services/metrics-reporter/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-05 09:27:12.000000000 Z
+- name: commons-lang:commons-lang
+  description: Commons Lang
+  version: '2.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/assert-properties/pom.xml
+  detection_source: contrib/assert-properties/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/read-properties/pom.xml
+  detection_source: contrib/read-properties/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: commons-net:commons-net
+  description: Apache Commons Net library contains a collection of network utilities
+    and protocol implementations
+  version: 3.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/client/pom.xml
+  detection_source: web-services/client/pom.xml
+  last_updated_by: tomnelson
+  last_updated_on: 2018-08-13 14:24:13.000000000 Z
+- name: commons-pool:commons-pool
+  description: Commons Object Pooling Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: io.dropwizard.metrics:metrics-core
+  description: Metrics is a Java library which gives you unparalleled insight into
+    what your code does in production
+  version: 3.2.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/metrics-reporter/pom.xml
+  detection_source: services/metrics-reporter/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-27 19:14:32.000000000 Z
+- name: io.jsonwebtoken:jjwt
+  description: 'Java JWT: JSON Web Token for Java and Android'
+  version: 0.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/authorization-api/pom.xml
+  detection_source: services/authorization-api/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: io.netty:netty-all
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: io.protostuff:protostuff-core
+  description: Protobuf serialization for mutable messages
+  version: 1.5.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/base-rest-responses/pom.xml
+  detection_source: services/base-rest-responses/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-19 18:17:24.000000000 Z
+- name: io.protostuff:protostuff-runtime
+  description: Protobuf serialization for pre-existing objects
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/accumulo-client/pom.xml
+  detection_source: web-services/accumulo-client/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: io.swagger:swagger-annotations
+  description: Examples and server integrations for generating the Swagger API Specification
+  version: 1.5.21
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-19 18:17:24.000000000 Z
+- name: io.undertow:undertow-core
+  description: Undertow
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: io.undertow:undertow-servlet
+  description: High performance non-blocking webserver
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: java3d:vecmath
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/client/pom.xml
+  detection_source: web-services/client/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: javax.enterprise:cdi-api
+  description: APIs for CDI
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: javax.mail:javax.mail-api
+  version: 1.5.4
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-configuration/pom.xml
+  detection_source: warehouse/ingest-configuration/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: javax.validation:validation-api
+  description: Bean Validation API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: javax:javaee-web-api
+  description: Java
+  version: '6.0'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/rest-api/pom.xml
+  detection_source: web-services/rest-api/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: '2.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-11-11 02:16:34.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/assert-properties/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: log4j:apache-log4j-extras
+  description: This package provides additional appenders, filters and other capabilities
+    for version 1.2 of Apache log4j™
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/common-test/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/common-test/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: net.sf.opencsv:opencsv
+  description: A simple library for reading and writing CSV in Java
+  version: '2.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/common/pom.xml
+  detection_source: warehouse/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.abdera:abdera-core
+  description: Atom Specification Implementation Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/atom/pom.xml
+  detection_source: web-services/atom/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.abdera:abdera-i18n
+  description: RFC 3987
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/atom/pom.xml
+  detection_source: web-services/atom/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.abdera:abdera-parser
+  description: Atom Specification Implementation Parser
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/atom/pom.xml
+  detection_source: web-services/atom/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.accumulo:accumulo-core
+  description: Apache Accumulo core libraries
+  version: 1.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/accumulo-utils/pom.xml
+  detection_source: services/accumulo-utils/pom.xml
+  last_updated_by: Ivan Bella
+  last_updated_on: 2019-01-08 16:26:49.000000000 Z
+  vulnerabilities:
+  - name: Improper privilege handling in Apache Accumulo
+    cve_id: CVE-2020-17533
+    cve_url: https://github.com/advisories/GHSA-grc3-8q8m-4j7c
+    detected_date: Feb 10
+    severity: high
+    first_patched: 1.10.1
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  version: '4.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/accumulo-utils/pom.xml
+  detection_source: services/accumulo-utils/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: org.apache.commons:commons-compress
+  description: Apache Commons Compress software defines an API for working with compression
+    and archive formats
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/map-reduce/pom.xml
+  detection_source: web-services/map-reduce/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 14:24:35.000000000 Z
+- name: org.apache.commons:commons-digester3
+  description: The Apache Commons Digester package lets you configure an XML to Java
+    object mapping module which triggers certain actions called rules whenever a particular
+    pattern of nested X...
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/security/pom.xml
+  detection_source: web-services/security/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 14:24:35.000000000 Z
+- name: org.apache.commons:commons-jci-core
+  description: Apache Commons JCI core interfaces and implementations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-08-13 17:31:45.000000000 Z
+- name: org.apache.commons:commons-jexl
+  description: The Commons Jexl library is an implementation of the JSTL Expression
+    Language with extensions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 14:24:35.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/base-rest-responses/pom.xml
+  detection_source: services/base-rest-responses/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-19 18:17:24.000000000 Z
+- name: org.apache.commons:commons-math3
+  description: The Apache Commons Math project is a library of lightweight
+  version: '3.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/query/pom.xml
+  detection_source: web-services/query/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 14:24:35.000000000 Z
+- name: org.apache.commons:commons-pool2
+  description: The Apache Commons Object Pooling Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/common/pom.xml
+  detection_source: web-services/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-09-05 17:54:23.000000000 Z
+- name: org.apache.commons:commons-vfs2
+  description: Apache Commons VFS is a Virtual File System library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/deploy/application/pom.xml
+  detection_source: web-services/deploy/application/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.curator:curator-client
+  description: Low-level API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: bbux-atg
+  last_updated_on: 2018-10-03 12:51:22.000000000 Z
+- name: org.apache.curator:curator-framework
+  description: High-level API that greatly simplifies using ZooKeeper
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/accumulo/pom.xml
+  detection_source: web-services/accumulo/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.curator:curator-recipes
+  description: All of the recipes listed on the ZooKeeper recipes doc
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: bbux-atg
+  last_updated_on: 2018-10-03 12:51:22.000000000 Z
+- name: org.apache.curator:curator-test
+  description: Unit testing utilities
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: bbux-atg
+  last_updated_on: 2018-10-03 12:51:22.000000000 Z
+- name: org.apache.deltaspike.core:deltaspike-core-api
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/atom/pom.xml
+  detection_source: web-services/atom/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.deltaspike.core:deltaspike-core-impl
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.geronimo.specs:geronimo-activation_1.1_spec
+  description: Java Activation Spec API 1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/atom/pom.xml
+  detection_source: web-services/atom/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.hadoop:hadoop-annotations
+  description: Apache Hadoop Annotations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.hadoop:hadoop-auth
+  description: Apache Hadoop Auth - Java HTTP SPNEGO
+  version: 2.6.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/audit-service/pom.xml
+  detection_source: services/audit-service/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: org.apache.hadoop:hadoop-client
+  description: Apache Hadoop Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/common-test/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.hadoop:hadoop-common
+  description: Apache Hadoop Common
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/common-test/pom.xml
+  detection_source: common-test/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.hadoop:hadoop-distcp
+  description: Apache Hadoop Distributed Copy
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.hadoop:hadoop-hdfs
+  description: Apache Hadoop HDFS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/deploy/application/pom.xml
+  detection_source: web-services/deploy/application/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.hadoop:hadoop-mapreduce-client-common
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.hadoop:hadoop-mapreduce-client-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: bbux-atg
+  last_updated_on: 2018-10-03 12:51:22.000000000 Z
+- name: org.apache.hadoop:hadoop-yarn-api
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/map-reduce/pom.xml
+  detection_source: web-services/map-reduce/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: org.apache.hadoop:hadoop-yarn-common
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/deploy/application/pom.xml
+  detection_source: web-services/deploy/application/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/metrics-reporter/pom.xml
+  detection_source: services/metrics-reporter/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-05 09:28:01.000000000 Z
+- name: org.apache.httpcomponents:httpcore
+  description: Apache HttpComponents Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: Ivan Bella
+  last_updated_on: 2018-08-17 16:04:15.000000000 Z
+- name: org.apache.lucene:lucene-analyzers-common
+  description: Additional Analyzers
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.lucene:lucene-core
+  description: Apache Lucene Java Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.lucene:lucene-queryparser
+  description: Lucene QueryParsers module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: Ivan Bella
+  last_updated_on: 2018-08-17 16:04:15.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  version: 3.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/assert-properties/pom.xml
+  detection_source: contrib/assert-properties/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+  vulnerabilities:
+  - name: Origin Validation Error in Apache Maven
+    cve_id: CVE-2021-26291
+    cve_url: https://github.com/advisories/GHSA-2f88-5hg8-9x2x
+    detected_date: Aug 16
+    severity: critical
+    first_patched: 3.8.1
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  version: 3.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/assert-properties/pom.xml
+  detection_source: contrib/assert-properties/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: org.apache.mrunit:mrunit
+  description: MRUnit is a Java library that helps developers unit test Apache Hadoop
+    map reduce jobs
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/assemble/webservice/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.ws.commons.axiom:axiom-api
+  description: The Axiom API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/atom/pom.xml
+  detection_source: web-services/atom/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.ws.commons.axiom:axiom-impl
+  description: The Axiom default implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/atom/pom.xml
+  detection_source: web-services/atom/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.apache.zookeeper:zookeeper
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/common/pom.xml
+  detection_source: web-services/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-09-05 17:54:23.000000000 Z
+- name: org.bouncycastle:bcprov-jdk16
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/security/pom.xml
+  detection_source: web-services/security/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-04-25 14:46:39.000000000 Z
+- name: org.codehaus.jackson:jackson-jaxrs
+  description: Jax-RS provider for JSON content type
+  version: 1.8.8
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.codehaus.jackson:jackson-mapper-asl
+  description: Data Mapper package is a high-performance data binding package built
+    on Jackson JSON processor
+  version: 1.9.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/map-reduce/pom.xml
+  detection_source: web-services/map-reduce/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in org.codehaus.jackson:jackson-mapper-asl
+    cve_id: CVE-2019-10202
+    cve_url: https://github.com/advisories/GHSA-c27h-mcmw-48hv
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 
+  - name: Improper Restriction of XML External Entity Reference in jackson-mapper-asl
+    cve_id: CVE-2019-10172
+    cve_url: https://github.com/advisories/GHSA-r6j9-8759-g62w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 
+- name: org.easymock:easymock
+  description: EasyMock provides an easy way to create Mock Objects for interfaces
+    and classes generating them on the fly
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/common/pom.xml
+  detection_source: warehouse/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.hamcrest:hamcrest-all
+  description: A self-contained hamcrest jar containing all of the sub-modules in
+    a single artifact
+  version: '1.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ops-tools/config-compare/pom.xml
+  detection_source: warehouse/ops-tools/config-compare/pom.xml
+  last_updated_by: tomnelson
+  last_updated_on: 2018-08-13 14:24:13.000000000 Z
+- name: org.hornetq:hornetq-commons
+  description: HornetQ is an open source project to build a multi-protocol
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.hornetq:hornetq-core-client
+  description: HornetQ is an open source project to build a multi-protocol
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.hornetq:hornetq-jms-client
+  description: HornetQ is an open source project to build a multi-protocol
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-08-13 17:31:45.000000000 Z
+- name: org.hornetq:hornetq-jms-server
+  description: HornetQ is an open source project to build a multi-protocol
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/common/pom.xml
+  detection_source: web-services/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-09-05 17:54:23.000000000 Z
+- name: org.hornetq:hornetq-journal
+  description: HornetQ is an open source project to build a multi-protocol
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/common/pom.xml
+  detection_source: web-services/common/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-09-05 17:54:23.000000000 Z
+- name: org.hornetq:hornetq-server
+  description: HornetQ is an open source project to build a multi-protocol
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-17 20:44:09.000000000 Z
+- name: org.infinispan:infinispan-core
+  description: Infinispan core module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-08-13 17:31:45.000000000 Z
+- name: org.javassist:javassist
+  description: Javassist
+  license: LGPL-2.1,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-core/pom.xml
+  detection_source: warehouse/ingest-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.javatuples:javatuples
+  description: Java library for tuples in Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/metrics-core/pom.xml
+  detection_source: warehouse/metrics-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.jboss.arquillian.junit:arquillian-junit-container
+  description: JUnit Container Implementation for the Arquillian Project
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: Ivan Bella
+  last_updated_on: 2018-08-17 16:04:15.000000000 Z
+- name: org.jboss.logging:jboss-logging
+  description: The JBoss Logging Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.jboss.resteasy:jaxrs-api
+  description: REST and JAXRS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/ingest-csv/pom.xml
+  detection_source: warehouse/ingest-csv/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.jboss.resteasy:resteasy-client
+  description: Resteasy
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/security/pom.xml
+  detection_source: web-services/security/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-04-25 14:46:39.000000000 Z
+- name: org.jboss.resteasy:resteasy-jaxb-provider
+  description: REST and JAXRS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/common-util/pom.xml
+  detection_source: web-services/common-util/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: org.jboss.resteasy:resteasy-jaxrs
+  description: REST and JAXRS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec
+  description: 'JSR 250: Common Annotations for the Java'
+  license: CDDL-1.1,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/accumulo/pom.xml
+  detection_source: web-services/accumulo/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec
+  description: Jakarta Interceptors defines a means of interposing on business method
+    invocations and specific events—such as lifecycle events and timeout events—that
+    occur on instances of Jak...
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/accumulo/pom.xml
+  detection_source: web-services/accumulo/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-18 13:39:09.000000000 Z
+- name: org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec
+  description: The Java Servlet 3.1 API classes
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/metrics-core/pom.xml
+  detection_source: warehouse/metrics-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec
+  description: The Java Transaction 1.2 API classes
+  license: CDDL-1.1,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.jboss.weld.se:weld-se-core
+  description: Weld support for Java SE
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/edge-dictionary-core/pom.xml
+  detection_source: warehouse/edge-dictionary-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.jboss.weld:weld-core
+  description: Weld's implementation of CDI
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: Ivan Bella
+  last_updated_on: 2018-08-17 16:04:15.000000000 Z
+- name: org.jgroups:jgroups
+  description: Reliable cluster communication toolkit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-11-11 02:16:34.000000000 Z
+- name: org.jmock:jmock-junit4
+  description: An expressive Mock Object library for Test Driven Development
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/balancers/pom.xml
+  detection_source: warehouse/balancers/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.mortbay.jetty:jetty
+  description: Jetty server core
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/metrics-core/pom.xml
+  detection_source: warehouse/metrics-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.ow2.asm:asm
+  description: ASM
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: Ivan Bella
+  last_updated_on: 2018-08-17 16:04:15.000000000 Z
+- name: org.picketbox:picketbox
+  description: PicketBox is a security framework for Java Applications
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/docs/pom.xml
+  detection_source: docs/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.powermock:powermock-api-easymock
+  description: PowerMock API for EasyMock
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/webservice/pom.xml
+  detection_source: warehouse/assemble/webservice/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.powermock:powermock-api-mockito
+  description: PowerMock API for Mockito 1.+.
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/data-dictionary-core/pom.xml
+  detection_source: warehouse/data-dictionary-core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.powermock:powermock-api-support
+  description: Utility classes
+  version: 1.6.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/base-rest-responses/pom.xml
+  detection_source: services/base-rest-responses/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-19 18:17:24.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/webservice/pom.xml
+  detection_source: warehouse/assemble/webservice/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/authorization-api/pom.xml
+  detection_source: services/authorization-api/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-29 22:45:52.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  version: 1.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/client/pom.xml
+  detection_source: web-services/client/pom.xml
+  last_updated_by: tomnelson
+  last_updated_on: 2018-08-13 14:24:13.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/accumulo-utils/pom.xml
+  detection_source: services/accumulo-utils/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: org.springframework.boot:spring-boot-actuator
+  description: Spring Boot Actuator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/hazelcast-client/pom.xml
+  detection_source: services/hazelcast-client/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-11-14 19:16:17.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/service-parent/pom.xml
+  detection_source: services/service-parent/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-27 19:14:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-log4j2
+  description: Starter for using Log4j2 for logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/hazelcast-common/pom.xml
+  detection_source: services/hazelcast-common/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 01:55:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/service-parent/pom.xml
+  detection_source: services/service-parent/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-27 19:14:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-12-19 18:17:24.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.cloud:spring-cloud-commons
+  description: Spring Cloud Commons
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/hazelcast-common/pom.xml
+  detection_source: services/hazelcast-common/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-07-20 01:55:18.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-client
+  description: "#&lt;Ox::CData:0x000055b4f0c4ebb8&gt;"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-server
+  description: Spring-cloud-config-server
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/config-service/pom.xml
+  detection_source: services/config-service/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.cloud:spring-cloud-context
+  description: Spring Cloud Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.cloud:spring-cloud-starter-bus-amqp
+  description: Spring Cloud Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework.retry:spring-retry
+  description: "#&lt;Ox::CData:0x00007efddc429b78&gt;"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/spring-boot-starter-datawave/pom.xml
+  detection_source: services/spring-boot-starter-datawave/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2018-08-29 12:01:37.000000000 Z
+- name: org.springframework:spring-aop
+  description: Spring AOP
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/accumulo/pom.xml
+  detection_source: web-services/accumulo/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.springframework:spring-beans
+  description: Spring Beans
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: Ivan Bella
+  last_updated_on: 2018-08-17 16:04:15.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/assemble/datawave/pom.xml
+  detection_source: warehouse/assemble/datawave/pom.xml
+  last_updated_by: Keith Ratcliffe
+  last_updated_on: 2018-08-13 17:31:45.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/services/accumulo-utils/pom.xml
+  detection_source: services/accumulo-utils/pom.xml
+  last_updated_by: Brian Loss
+  last_updated_on: 2019-01-03 16:57:59.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/contrib/read-properties/pom.xml
+  detection_source: contrib/read-properties/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: org.springframework:spring-expression
+  description: Spring Expression Language
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/deploy/application/pom.xml
+  detection_source: web-services/deploy/application/pom.xml
+  last_updated_by: matthpeterson
+  last_updated_on: 2019-05-31 16:40:56.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/query-core/pom.xml
+  detection_source: warehouse/query-core/pom.xml
+  last_updated_by: Bob Whitehurst
+  last_updated_on: 2018-10-23 17:21:34.000000000 Z
+- name: xalan:serializer
+  description: Serializer to write out XML, HTML etc
+  version: 2.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/web-services/geoserver/geoserver-application/pom.xml
+  detection_source: web-services/geoserver/geoserver-application/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
+- name: xerces:xercesImpl
+  description: Xerces2 is the next generation of high performance, fully compliant
+    XML parsers in the Apache Xerces family
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/Agency-datawave/blob/2.4-vis/warehouse/core/pom.xml
+  detection_source: warehouse/core/pom.xml
+  last_updated_by: keith-ratcliffe
+  last_updated_on: 2018-02-01 15:00:35.000000000 Z
