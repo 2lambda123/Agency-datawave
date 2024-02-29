@@ -3,36 +3,36 @@
 ## Tech Stack
 2lambda123/Agency-datawave is built on the following main stack:
 
-- [Consul](http://www.consul.io/) – Open Source Service Discovery
-- [StatsD](https://github.com/etsy/statsd/) – Monitoring Tools
-- [Python](https://www.python.org) – Languages
 - [Java](https://www.java.com) – Languages
-- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- [Hadoop](http://hadoop.apache.org/) – Databases
-- [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
-- [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
-- [JUnit](http://junit.org/) – Testing Frameworks
-- [Mockito](https://site.mockito.org/) – Testing Frameworks
-- [Hazelcast](http://hazelcast.org/) – In-Memory Databases
-- [JBoss](https://developers.redhat.com/products/eap) – Web Servers
-- [FindBugs](http://findbugs.sourceforge.net/) – Code Review
-- [Log4j](https://logging.apache.org/log4j/2.x/) – Logging Tools
-- [SLF4J](http://slf4j.org/) – Log Management
-- [guava](https://github.com/google/guava) – Java Tools
-- [Monit](https://mmonit.com) – Monitoring Tools
-- [Apache Camel](https://camel.apache.org/) – Platform as a Service
-- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - [Java EE](http://www.oracle.com/technetwork/java/javaee/overview/index.html) – Languages
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Python](https://www.python.org) – Languages
+- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - [Spring Cloud](https://spring.io/projects/spring-cloud) – Frameworks (Full Stack)
-- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- [cURL](http://curl.haxx.se/) – File Transfer
-- [Dataform](https://dataform.co/) – Business Intelligence
+- [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
+- [guava](https://github.com/google/guava) – Java Tools
+- [Hadoop](http://hadoop.apache.org/) – Databases
+- [Hazelcast](http://hazelcast.org/) – In-Memory Databases
+- [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
 - [Serverless AppSync](https://github.com/serverless-components/aws-app-sync) – GraphQL Tools
+- [Consul](http://www.consul.io/) – Open Source Service Discovery
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [FindBugs](http://findbugs.sourceforge.net/) – Code Review
+- [JBoss](https://developers.redhat.com/products/eap) – Web Servers
+- [JUnit](http://junit.org/) – Testing Frameworks
+- [Log4j](https://logging.apache.org/log4j/2.x/) – Logging Tools
+- [Mockito](https://site.mockito.org/) – Testing Frameworks
+- [Monit](https://mmonit.com) – Monitoring Tools
+- [SLF4J](http://slf4j.org/) – Log Management
+- [StatsD](https://github.com/etsy/statsd/) – Monitoring Tools
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
+- [Apache Camel](https://camel.apache.org/) – Platform as a Service
+- [Dataform](https://dataform.co/) – Business Intelligence
+- [cURL](http://curl.haxx.se/) – File Transfer
+- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -42,36 +42,36 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/Agency-datawave is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/747/consul-logo-grad_teaser.png' alt='Consul'/> [Consul](http://www.consul.io/) – Open Source Service Discovery
-- <img width='25' height='25' src='https://img.stackshare.io/service/932/default_b8c7d49298132d46fbef113905bcba1896158113.png' alt='StatsD'/> [StatsD](https://github.com/etsy/statsd/) – Monitoring Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1044/elephant_rgb_sq.png' alt='Hadoop'/> [Hadoop](http://hadoop.apache.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg' alt='RabbitMQ'/> [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1528/apache-zookeeper.png' alt='Zookeeper'/> [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
-- <img width='25' height='25' src='https://img.stackshare.io/service/2006/spring-framework-project-logo.png' alt='Spring Framework'/> [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg' alt='Mockito'/> [Mockito](https://site.mockito.org/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg' alt='Hazelcast'/> [Hazelcast](http://hazelcast.org/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/2188/unnamed.jpg' alt='JBoss'/> [JBoss](https://developers.redhat.com/products/eap) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg' alt='FindBugs'/> [FindBugs](http://findbugs.sourceforge.net/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg' alt='Log4j'/> [Log4j](https://logging.apache.org/log4j/2.x/) – Logging Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/2970/wBjKn0ol.png' alt='guava'/> [guava](https://github.com/google/guava) – Java Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2986/MonitLogo.png' alt='Monit'/> [Monit](https://mmonit.com) – Monitoring Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg' alt='Apache Camel'/> [Apache Camel](https://camel.apache.org/) – Platform as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/4522/652rxwyK_400x400.png' alt='Java EE'/> [Java EE](http://www.oracle.com/technetwork/java/javaee/overview/index.html) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png' alt='Spring Cloud'/> [Spring Cloud](https://spring.io/projects/spring-cloud) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/6552/curl-logo.png' alt='cURL'/> [cURL](http://curl.haxx.se/) – File Transfer
-- <img width='25' height='25' src='https://img.stackshare.io/service/11236/Group_22__3_.png' alt='Dataform'/> [Dataform](https://dataform.co/) – Business Intelligence
+- <img width='25' height='25' src='https://img.stackshare.io/service/2006/spring-framework-project-logo.png' alt='Spring Framework'/> [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2970/wBjKn0ol.png' alt='guava'/> [guava](https://github.com/google/guava) – Java Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1044/elephant_rgb_sq.png' alt='Hadoop'/> [Hadoop](http://hadoop.apache.org/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg' alt='Hazelcast'/> [Hazelcast](http://hazelcast.org/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg' alt='RabbitMQ'/> [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
 - <img width='25' height='25' src='https://img.stackshare.io/service/11394/appsync.png' alt='Serverless AppSync'/> [Serverless AppSync](https://github.com/serverless-components/aws-app-sync) – GraphQL Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/747/consul-logo-grad_teaser.png' alt='Consul'/> [Consul](http://www.consul.io/) – Open Source Service Discovery
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg' alt='FindBugs'/> [FindBugs](http://findbugs.sourceforge.net/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/2188/unnamed.jpg' alt='JBoss'/> [JBoss](https://developers.redhat.com/products/eap) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg' alt='Log4j'/> [Log4j](https://logging.apache.org/log4j/2.x/) – Logging Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg' alt='Mockito'/> [Mockito](https://site.mockito.org/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2986/MonitLogo.png' alt='Monit'/> [Monit](https://mmonit.com) – Monitoring Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/932/default_b8c7d49298132d46fbef113905bcba1896158113.png' alt='StatsD'/> [StatsD](https://github.com/etsy/statsd/) – Monitoring Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1528/apache-zookeeper.png' alt='Zookeeper'/> [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
+- <img width='25' height='25' src='https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg' alt='Apache Camel'/> [Apache Camel](https://camel.apache.org/) – Platform as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/11236/Group_22__3_.png' alt='Dataform'/> [Dataform](https://dataform.co/) – Business Intelligence
+- <img width='25' height='25' src='https://img.stackshare.io/service/6552/curl-logo.png' alt='cURL'/> [cURL](http://curl.haxx.se/) – File Transfer
+- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -82,7 +82,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/Agency-datawave](https://github.com/2lambda123/Agency-datawave)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|192<br/>Tools used|01/09/24 <br/>Report generated|
+|192<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
