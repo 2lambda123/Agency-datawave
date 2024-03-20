@@ -158,7 +158,9 @@ public class WritableUtil {
                     }
                 }
                 if (found)
-                    return pos;
+                    {
+                        return pos;
+                    }
             }
         }
         return -1; // not found
