@@ -2,7 +2,7 @@ repo_name: 2lambda123/Agency-datawave
 report_id: 8e60a67cbdd8680ab67b817f4a874ff5
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T08:27:15+00:00'
+timestamp: '2024-02-29T19:13:58+00:00'
 requested_by: 2lambda123
 provider: github
 branch: 2.4-vis
@@ -279,7 +279,7 @@ tools:
   last_updated_by: keith-ratcliffe
   last_updated_on: 2018-02-01 15:00:35.000000000 Z
 - name: Monit
-  description: 'A free, open-source process supervision tool '
+  description: A free, open-source process supervision tool
   website_url: https://mmonit.com
   open_source: false
   hosted_saas: false
